@@ -59,8 +59,9 @@ main {
 
 main img {
     margin-top: 20px;
-    width: 375px;
-
+    max-width: 375px;
+    width: 100%;
+    overflow-x: hidden;
 }
 
 .txt-cta {
