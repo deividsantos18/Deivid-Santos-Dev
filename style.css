@@ -10,6 +10,7 @@
 body {
     background-color: black;
     overflow-x: hidden;
+    max-width: 400px;
 }
 
 .corpo {
@@ -53,7 +54,6 @@ main {
     display: flex;
     flex-direction: column-reverse;
     padding-bottom: 30px;
-    overflow: hidden;
 }
 
 main img {
