@@ -17,7 +17,7 @@ body {
     background-color: #3b27aa;
     border-bottom-right-radius: 60px;
     border-bottom-left-radius: 60px;
-    width: 375px;
+    width: 100%;
 }
 
 .logo {
@@ -59,7 +59,7 @@ main {
 
 main img {
     margin-top: 20px;
-    max-width: 375px;
+    max-width: 300px;
     width: 100%;
     overflow-x: hidden;
 }
