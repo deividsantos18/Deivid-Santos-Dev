@@ -53,6 +53,7 @@ main {
     display: flex;
     flex-direction: column-reverse;
     padding-bottom: 30px;
+    overflow: hidden;
 }
 
 main img {
