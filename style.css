@@ -8,8 +8,14 @@
 }
 
 body {
-    background-color: #3b27aa;
+    background-color: black;
     overflow-x: hidden;
+}
+
+.corpo {
+    background-color: #3b27aa;
+    border-bottom-right-radius: 60px;
+    border-bottom-left-radius: 60px;
 }
 
 .logo {
@@ -84,7 +90,37 @@ main img {
     font-weight: 600;
 }
 
-section {
-    background-color: black;
+.apresentacao {
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.apresentacao img {
+    width: 300px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
+
+.apresentacao p {
     color: white;
+    font-family: "Roboto", serif;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.tecnologias {
+    text-align: center;
+    font-family: "Archivo Black", serif;
+    color: white;
+    margin-top: 20px;
+    padding-bottom: 30px;
+}
+
+.tecnologias h2 {
+    margin-bottom: 20px;
+}
+
+.tecnologias img {
+    width: 150px;
 }
